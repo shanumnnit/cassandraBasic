@@ -1,4 +1,4 @@
-package com.learn.cassandra.main;
+package com.learn.cassandra;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

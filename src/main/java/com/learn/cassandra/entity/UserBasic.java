@@ -21,16 +21,16 @@ public class UserBasic {
     private String username;    
     
     @Column("user_email")
-    private int email;    
+    private String email;    
     
     @Column(value ="user_gender")
-    private float gender;
+    private String gender;
     
     @Column(value ="user_password")
-    private float password;
+    private String password;
     
     @Column(value ="user_phone")
-    private float phone;
+    private int phone;
 
 	public long getId() {
 		return id;
@@ -48,35 +48,35 @@ public class UserBasic {
 		this.username = username;
 	}
 
-	public int getEmail() {
+	public String getEmail() {
 		return email;
 	}
 
-	public void setEmail(int email) {
+	public void setEmail(String email) {
 		this.email = email;
 	}
 
-	public float getGender() {
+	public String getGender() {
 		return gender;
 	}
 
-	public void setGender(float gender) {
+	public void setGender(String gender) {
 		this.gender = gender;
 	}
 
-	public float getPassword() {
+	public String getPassword() {
 		return password;
 	}
 
-	public void setPassword(float password) {
+	public void setPassword(String password) {
 		this.password = password;
 	}
 
-	public float getPhone() {
+	public int getPhone() {
 		return phone;
 	}
 
-	public void setPhone(float phone) {
+	public void setPhone(int phone) {
 		this.phone = phone;
 	}
     
